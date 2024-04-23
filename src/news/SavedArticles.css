@@ -1,0 +1,16 @@
+.whole {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust based on your design. */
+}
+
+.whole2 {
+    flex-basis: 100%; /* Ensure this container takes full width to properly contain its children */
+}
+
+.card {
+    flex: 0 0 30%; /* Slightly less than 33.33% to account for margins */
+    max-width: 30%; /* Match flex-basis for consistency */
+    margin: 10px; /* Adds space around each card */
+}
+

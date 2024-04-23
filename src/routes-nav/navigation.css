@@ -1,0 +1,53 @@
+/* Container for the navigation links */
+.main-navigation {
+    background-color: #333; 
+    display: flex; 
+    justify-content: center; 
+    padding: 0; 
+    margin: 0;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    flex-wrap: wrap; 
+  }
+  
+  /* Style for each navigation link */
+  .main-navigation .nav-link, .main-navigation a {
+    color: white; 
+    padding: 0.5em 1em; 
+    text-decoration: none; 
+    transition: background-color 0.3s; 
+    font-size: 1.1em;
+  }
+  
+  /* Hover and active styles */
+  /* .main-navigation .nav-link:hover, .main-navigation a:hover, */
+  /* .main-navigation .nav-link.active, .main-navigation a.active { */
+    /* background-color: #555;  */
+    /* border-radius: 5px;  */
+  /* } */
+
+    .main-navigation .nav-link:hover /*, .main-navigation .nav-link.active, .main-navigation a.active */ {
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .main-navigation .nav-link.active {
+    color: white;
+    /* background-color: #555; */
+
+  }
+
+
+  
+  
+  /* Logout link styles, making it stand out or align it to the right */
+  .main-navigation a:last-child {
+    background-color: #f00; /* Red background color for logout to make it stand out */
+    /* margin-left: auto;  */
+    color: #fff; /* White text color for contrast */
+    border-radius: 5px;
+  }
+  
+

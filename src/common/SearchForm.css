@@ -1,0 +1,11 @@
+.SearchForm input:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+  }
+
+  .SearchForm .form-inline {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: -25px; 
+  }
+  

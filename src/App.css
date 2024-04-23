@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+Nav bar
+.main-navigation {
+  background-color: #333;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+
+}
+
+.main-navigation a {
+  color: white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.main-navigation a:hover, nav a.active {
+  background-color: #555;
+}
+
+.main-navigation div {
+  padding: 1em;
+
+}
+
+/* Styles for the active link, if using NavLink */
+.active {
+  font-weight: bold;
+  background-color: #555;
+}
+
